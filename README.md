@@ -109,7 +109,7 @@
 
         answers.forEach(function (answer, index) {
             const value = parseInt(answer.value);
-            resultDescription += `问题${index + 1}的选择是：${results[index][value]}<br>`;
+            resultDescription += `问题${index + 1}的选择是：${newResults[index][value]}<br>`;
         });
 
         // 展示结果
